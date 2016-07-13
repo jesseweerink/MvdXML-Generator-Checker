@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mvdXML xmlns="http://buildingsmart-tech.org/mvdXML/mvdXML1-1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="" uuid="00000000-0000-0000-0000-000000000000">
+  <Templates>
+   <ConceptTemplate applicableEntity="IfcObject" applicableSchema="IFC4" name="SingleValueProperty" uuid="7a13d17c-20a0-4117-8abc-050d0c67e6ec">
+      <Rules>
+        <AttributeRule AttributeName="IsDefinedBy" Cardinality="_asSchema">
+          <EntityRules>
+            <EntityRule Cardinality="_asSchema" EntityName="IfcRelDefinesByProperties">
+              <AttributeRules>
+                <AttributeRule AttributeName="RelatingPropertyDefinition" Cardinality="_asSchema">
+                  <EntityRules>
+                    <EntityRule Cardinality="_asSchema" EntityName="IfcPropertySet">
+                      <AttributeRules>
+                        <AttributeRule AttributeName="HasProperties" Cardinality="_asSchema">
+                          <EntityRules>
+                            <EntityRule Cardinality="_asSchema" EntityName="IfcPropertySingleValue">
+                              <AttributeRules>
+                                <AttributeRule AttributeName="Name" Cardinality="_asSchema" RuleID="IfcPropertySingleValueName"/>
+                                <AttributeRule AttributeName="NominalValue" Cardinality="_asSchema" RuleID="NominalValue"/>
+                                <AttributeRule AttributeName="Unit" Cardinality="_asSchema" RuleID="Unit"/>
+                              </AttributeRules>
+                            </EntityRule>
+                          </EntityRules>
+                        </AttributeRule>
+                        <AttributeRule AttributeName="Name" Cardinality="_asSchema" RuleID="IfcPropertySingleValueName"/>
+                      </AttributeRules>
+                    </EntityRule>
+                  </EntityRules>
+                </AttributeRule>
+              </AttributeRules>
+            </EntityRule>
+          </EntityRules>
+        </AttributeRule>
+      </Rules>
+    </ConceptTemplate>
+	<ConceptTemplate applicableEntity="IfcObject" applicableSchema="IFC4" name="" uuid="6816f366-c607-43f4-a96a-b57be006ff6d">
+      <Rules>
+        <AttributeRule AttributeName="IsDefinedBy" Cardinality="_asSchema">
+          <EntityRules>
+            <EntityRule Cardinality="_asSchema" EntityName="IfcRelDefinesByProperties">
+              <AttributeRules>
+                <AttributeRule AttributeName="RelatingPropertyDefinition" Cardinality="_asSchema">
+                  <EntityRules>
+                    <EntityRule Cardinality="_asSchema" EntityName="IfcElementQuantity">
+                      <AttributeRules>
+                        <AttributeRule AttributeName="Quantities" Cardinality="_asSchema">
+                          <EntityRules>
+                            <EntityRule Cardinality="_asSchema" EntityName="IfcQuantityLength">
+                              <AttributeRules>
+                                <AttributeRule AttributeName="Name" Cardinality="_asSchema" RuleID="IfcQuantityLengthName"/>
+                              </AttributeRules>
+                            </EntityRule>
+                          </EntityRules>
+                        </AttributeRule>
+                      </AttributeRules>
+                    </EntityRule>
+                  </EntityRules>
+                </AttributeRule>
+              </AttributeRules>
+            </EntityRule>
+          </EntityRules>
+        </AttributeRule>
+      </Rules>
+    </ConceptTemplate>
+	 <ConceptTemplate applicableEntity="IfcObject" applicableSchema="IFC4" name="" uuid="46fba748-b6c7-48a3-b81a-af259c83aaa4">
+      <Rules>
+        <AttributeRule AttributeName="IsDefinedBy" Cardinality="_asSchema">
+          <EntityRules>
+            <EntityRule Cardinality="_asSchema" EntityName="IfcRelDefinesByProperties">
+              <AttributeRules>
+                <AttributeRule AttributeName="RelatingPropertyDefinition" Cardinality="_asSchema">
+                  <EntityRules>
+                    <EntityRule Cardinality="_asSchema" EntityName="IfcElementQuantity">
+                      <AttributeRules>
+                        <AttributeRule AttributeName="Quantities" Cardinality="_asSchema">
+                          <EntityRules>
+                            <EntityRule Cardinality="_asSchema" EntityName="IfcQuantityArea">
+                              <AttributeRules>
+                                <AttributeRule AttributeName="Name" Cardinality="_asSchema" RuleID="IfcQuantityAreaName"/>
+                              </AttributeRules>
+                            </EntityRule>
+                          </EntityRules>
+                        </AttributeRule>
+                      </AttributeRules>
+                    </EntityRule>
+                  </EntityRules>
+                </AttributeRule>
+              </AttributeRules>
+            </EntityRule>
+          </EntityRules>
+        </AttributeRule>
+      </Rules>
+    </ConceptTemplate>
+    <ConceptTemplate applicableEntity="IfcObject" applicableSchema="IFC4" name="" uuid="0f7f7621-dc0a-4ab8-8118-64ead2ee3cca">
+      <Rules>
+        <AttributeRule AttributeName="IsDefinedBy" Cardinality="_asSchema">
+          <EntityRules>
+            <EntityRule Cardinality="_asSchema" EntityName="IfcRelDefinesByProperties">
+              <AttributeRules>
+                <AttributeRule AttributeName="RelatingPropertyDefinition" Cardinality="_asSchema">
+                  <EntityRules>
+                    <EntityRule Cardinality="_asSchema" EntityName="IfcElementQuantity">
+                      <AttributeRules>
+                        <AttributeRule AttributeName="Quantities" Cardinality="_asSchema">
+                          <EntityRules>
+                            <EntityRule Cardinality="_asSchema" EntityName="IfcQuantityVolume">
+                              <AttributeRules>
+                                <AttributeRule AttributeName="Name" Cardinality="_asSchema" RuleID="IfcQuantityVolumeName"/>
+                              </AttributeRules>
+                            </EntityRule>
+                          </EntityRules>
+                        </AttributeRule>
+                      </AttributeRules>
+                    </EntityRule>
+                  </EntityRules>
+                </AttributeRule>
+              </AttributeRules>
+            </EntityRule>
+          </EntityRules>
+        </AttributeRule>
+      </Rules>
+    </ConceptTemplate>
+   <ConceptTemplate applicableEntity="IfcObject" applicableSchema="IFC4" name="" uuid="a7e3b203-e708-4ce7-bfa1-c629582a9870">
+      <Rules>
+        <AttributeRule AttributeName="IsDefinedBy" Cardinality="_asSchema">
+          <EntityRules>
+            <EntityRule Cardinality="_asSchema" EntityName="IfcRelDefinesByProperties">
+              <AttributeRules>
+                <AttributeRule AttributeName="RelatingPropertyDefinition" Cardinality="_asSchema">
+                  <EntityRules>
+                    <EntityRule Cardinality="_asSchema" EntityName="IfcElementQuantity">
+                      <AttributeRules>
+                        <AttributeRule AttributeName="Quantities" Cardinality="_asSchema">
+                          <EntityRules>
+                            <EntityRule Cardinality="_asSchema" EntityName="IfcQuantityLength">
+                              <AttributeRules>
+                                <AttributeRule AttributeName="Name" Cardinality="_asSchema" RuleID="IfcQuantityLengthName"/>
+                              </AttributeRules>
+                            </EntityRule>
+                          </EntityRules>
+                        </AttributeRule>
+                      </AttributeRules>
+                    </EntityRule>
+                  </EntityRules>
+                </AttributeRule>
+              </AttributeRules>
+            </EntityRule>
+          </EntityRules>
+        </AttributeRule>
+      </Rules>
+    </ConceptTemplate>
+  </Templates>
+	<Views>
+    <ModelView applicableSchema="IFC4" name="DEMO" uuid="a3713e64-6251-4569-b8c6-934fa6acfb25">
+      <ExchangeRequirements>
+        <ExchangeRequirement applicability="both" name="Example" uuid="139cd9af-7874-4c62-aab8-9ca39dc25dd2"/>
+      </ExchangeRequirements>
+      <Roots>
+        <ConceptRoot applicableRootEntity="IfcWindow" name="" uuid="8101d3e8-afe0-448c-b803-f80874ab63a5">
+          <Concepts>
+            <Concept name="SingleValueProperty" override="false" uuid="6ca5d3a3-ae77-49a3-9012-96180d68810b">
+              <Definitions>
+                <Definition>
+                  <Body/>
+                </Definition>
+              </Definitions>
+              <Template ref="7aaad17c-20a0-4117-8abc-050d0c67e6ec"/>
+              <Requirements>
+                <Requirement applicability="import" exchangeRequirement="139cd9af-7874-4c62-aab8-9ca39dc25dd2" requirement="mandatory"/>
+                <Requirement applicability="export" exchangeRequirement="139cd9af-7874-4c62-aab8-9ca39dc25dd2" requirement="mandatory"/>
+              </Requirements>
+              <Rules>
+                <TemplateRule Parameters="PropertyName[Value]='FireRating'"/>
+              </Rules>
+            </Concept>
+          </Concepts>
+        </ConceptRoot>
+       <ConceptRoot applicableRootEntity="IfcWindow" name="" uuid="483f4d15-8b40-44bc-895e-5f2e5a121a0e">
+          <Concepts>
+            <Concept name="" override="false" uuid="d80c6ef7-3c49-4e4b-9624-1edd30a4624d">
+              <Definitions>
+                <Definition>
+                  <Body/>
+                </Definition>
+              </Definitions>
+              <Template ref="a7e3b203-e708-4ce7-bfa1-c629582a9870"/>
+              <Requirements>
+                <Requirement/>
+              </Requirements>
+              <Rules>
+                <TemplateRule Parameters="IfcQuantityLengthName[Value]='Thickness'"/>
+              </Rules>
+            </Concept>
+          </Concepts>
+        </ConceptRoot>
+        <ConceptRoot applicableRootEntity="IfcWindow" name="" uuid="f2e0fdd4-3093-4ff7-b77d-7a33a7ce3c8c">
+          <Concepts>
+            <Concept name="" override="false" uuid="88a636d1-3713-44ec-9cd6-7456257b465b">
+              <Definitions>
+                <Definition>
+                  <Body/>
+                </Definition>
+              </Definitions>
+              <Template ref="0f7f7621-dc0a-4ab8-8118-64ead2ee3cca"/>
+              <Requirements>
+                <Requirement/>
+              </Requirements>
+              <Rules>
+                <TemplateRule Parameters="IfcQuantityVolumeName[Value]='Volume'"/>
+              </Rules>
+            </Concept>
+          </Concepts>
+        </ConceptRoot>
+        <ConceptRoot applicableRootEntity="IfcWindow" name="" uuid="ce768e29-fb76-44f9-b47a-1a6b7e2ce788">
+          <Concepts>
+            <Concept name="" override="false" uuid="61a1c1cf-4366-4c73-afac-83c416c68ea6">
+              <Definitions>
+                <Definition>
+                  <Body/>
+                </Definition>
+              </Definitions>
+              <Template ref="46fba748-b6c7-48a3-b81a-af259c83aaa4"/>
+              <Requirements>
+                <Requirement/>
+              </Requirements>
+              <Rules>
+                <TemplateRule Parameters="IfcQuantityAreaName[Value]='Area'"/>
+              </Rules>
+            </Concept>
+          </Concepts>
+        </ConceptRoot>
+      </Roots>
+    </ModelView>
+  </Views>
+</mvdXML>
